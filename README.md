@@ -4,5 +4,8 @@
 * Nftables wireguard killswitch
 
 ## Get started
-* 1
-  * 2
+* Killswitch
+  * Activate a wireguard VPN.
+  * Set or allow the port(s) in /etc/nftables.conf to correspond with the port(s) you're using to connect to the VPN.
+  * wg0 is the default interface, you may change it.
+  * run ```systemctl activate nftables```
