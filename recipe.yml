@@ -28,6 +28,7 @@ stages:
     source:
       packages:
       - vim
+      - nftables
 
   - name: example-commands # Sample module demonstrating the Shell module with custom commands
     type: shell
