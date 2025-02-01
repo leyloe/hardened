@@ -21,7 +21,7 @@ stages:
     - lpkg --unlock
     - apt-get update
 
-  # Put your custom actions below this commen
+  # Put your custom actions below this comment
 
   - name: modules # Sample module demonstrating importing local and remote modules
     type: includes
